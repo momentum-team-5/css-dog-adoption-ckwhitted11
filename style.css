@@ -1,0 +1,103 @@
+*{
+    font-family: sans-serif, "Open sans", oswald;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 8px;
+}
+
+.header {
+    color: white;
+    padding: 20px 20px 20px 20px;
+    background-color: #004175;
+    border-bottom: 5px solid hsl(190, 76%, 74%);
+}
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 3px;
+    border-radius: 14px;
+    background-color: #89DEEF;
+    color: black;
+    padding: 8px;
+    border-style: none;
+    flex-flow: row wrap;
+}
+
+.dogs{
+    display: inline-flex;
+    flex: 1;
+    flex-flow: row wrap;
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+img {
+    padding: 15px;
+    justify-content: flex-start;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    max-width: 300px;
+    flex: 33%;
+    display: inline-flex;
+    flex-direction: row;
+}
+.footer{
+    background-color: #A6A9F0;
+    background-position: center;
+    width: 1125px;
+    height: 315px;
+    font-size: 2.5em;
+    color: white;
+    display: inline-flex;
+    text-align: center;
+    line-height: 300px;
+}
+
+.box1 {
+    flex: 1 1 auto;
+    max-width: 100%;
+    height: 300px;
+    background:
+    linear-gradient(
+        rgba(166, 169, 240, .7),
+        rgba(166, 169, 240, .7))
+        url(starter_files/images/volunteer.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    )
+}
+
+.box2 {
+    flex: 1 1 auto;
+    max-width: 100%;
+    height: 300px;
+    background:
+    linear-gradient(
+        rgba(166, 169, 240, .7),
+        rgba(166, 169, 240, .7))
+        url(starter_files/images/location.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    )
+}
+
+.box3 {
+    flex: 1 1 auto;
+    max-width: 100%;
+    height: 300px;
+    background:
+    linear-gradient(
+        rgba(166, 169, 240, .7),
+        rgba(166, 169, 240, .7))
+        url(starter_files/images/donate.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    )
+
+
+
+
